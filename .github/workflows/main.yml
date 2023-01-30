@@ -2,6 +2,9 @@ name: GameCI Template 🎮
 
 on: push
 
+permissions:
+  contents: write
+  
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
